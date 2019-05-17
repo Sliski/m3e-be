@@ -1,0 +1,37 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/certs
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+package-lock.json
+todos.txt
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IntelliJ
+/.idea
+
+# auth module
+/auth/auth.controller.js
+/auth/auth.router.js
+/auth/passport.init.js
+
+config.js
+server.js
+db.js
